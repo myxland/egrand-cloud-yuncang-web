@@ -1,0 +1,30 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = false
+trim_trailing_whitespace = true
+max_line_length = 120
+tab_width = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.java]
+indent_size = 4
+max_line_length = 1000
+
+[{*.jhm, *.xjb, *.rng, *.wsdd, *.wsdl, *.fxml, *.plan, *.bpmn, *.pom, *.xslt, *.jrxml, *.ant, *.xul, *.xsl, *.xsd, *.tld, *.jnlp, *.wadl, *.xml}]
+max_line_length = 1000
+indent_size = 4
+
+[{*.sht, *.htm, *.html, *.shtm, *.shtml, *.ng}]
+max_line_length = 1000
+indent_size = 4
+
+[{*.xjsp, *.tag, *.jsf, *.jsp, *.jspf, *.tagf}]
+max_line_length = 1000
+indent_size = 4

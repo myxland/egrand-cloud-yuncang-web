@@ -1,0 +1,21 @@
+//@import './home.scss';
+@import './initElementCss.scss';
+//公共样式-针对element全局修改
+@import './homePage.scss';
+//首页样式
+@import './person.scss';
+@import './organize.scss';
+@import './cloud.scss';
+@import './login.scss';
+
+@import './allPageCommon.scss';
+//公共样式-针对element全局修改
+
+@import "./userCustomMobanPage1.scss";
+// 自定义模板1样式
+
+@import "./userCustomGroupPage.scss"; // 自定义模板1样式
+
+.el-container {
+  background-color: white;
+}
